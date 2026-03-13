@@ -10,15 +10,25 @@ To implement a Support Vector Machine (SVM) model to classify food items and opt
 
 ## Algorithm
 1.Import required libraries such as pandas, sklearn, seaborn, and matplotlib.
+
 2.Load the dataset food_items_binary.csv.
+
 3.Select important features (Calories, Total Fat, Saturated Fat, Sugars, Dietary Fiber, Protein).
+
 4.Define the target variable (class).
+
 5.Split the dataset into training and testing sets.
+
 6.Apply StandardScaler to normalize the feature values and Create an SVM classifier (SVC) model.
+
 7.Define a parameter grid for hyperparameter tuning.
+
 8.Use GridSearchCV with 5-fold cross validation to find the best parameters.
+
 9.Train the model using the training dataset and Predict the output for the test dataset.
+
 10.Calculate accuracy and generate a classification report.
+
 11.Display the confusion matrix using a heatmap.
 
 ## Program:
